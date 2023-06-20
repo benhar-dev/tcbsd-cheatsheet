@@ -21,6 +21,12 @@ IP Address finding
 # ifconfig
 ```
 
+Find open listening ports
+
+```
+# sockstat -4 -l
+```
+
 ## Firewall
 
 ### Stopping and Starting
