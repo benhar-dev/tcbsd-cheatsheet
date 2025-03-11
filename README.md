@@ -1,5 +1,14 @@
 # TwinCAT BSD Cheatsheet
 
+## Major version update
+
+```
+doas pkg update -f && doas pkg upgrade
+pkg install tcbsd-upgrade
+doas tcbsd-upgrade major
+shutdown -r now
+```
+
 ## Operation
 
 restart 
